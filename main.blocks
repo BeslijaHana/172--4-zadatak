@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="SUA+;G}bBhO9^3KdgO;S">sek</variable><variable id="]bxEZ$u[#z.^6)6!~=Z(">x</variable><variable id="MA|}?JAEvd1ZDk)RcQ(E">index</variable></variables><block type="pxt-on-start" id="4Z.J9F%[:sJO_Eo^DxBa" x="20" y="20"><statement name="HANDLER"><block type="variables_set" id="tC3TMDRTJ~nJK1?NW|W~"><field name="VAR" id="SUA+;G}bBhO9^3KdgO;S">sek</field><value name="VALUE"><shadow type="math_number" id="@9Zfg,KPZ/.OD)@lm0f0"><field name="NUM">10</field></shadow></value></block></statement></block><block type="device_button_event" id="br/3U$89LfEHCW7.!xpq" x="117" y="207"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_while" id="X[f=YE;!BM2[bkIhc!s_"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_operation" id="f^TYEQwd}5/739}}|1vF"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="2i?-|e+J?dfyD$xhH-sb"><field name="OP">LTE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="8:{wA9?.L)Mi=}XD~0B|"><field name="VAR" id="SUA+;G}bBhO9^3KdgO;S">sek</field></block></value><value name="B"><shadow type="math_number" id="7J4M)Q9l)f|v6^DExthF"><field name="NUM">10</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="T@Dl#/gd=i1:):.cd/2U"><field name="OP">GTE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="=YL]BneLxgs9J,sA6EmK"><field name="VAR" id="SUA+;G}bBhO9^3KdgO;S">sek</field></block></value><value name="B"><shadow type="math_number" id="z~GPVU-uA%IR%Fd9wvHh"><field name="NUM">1</field></shadow></value></block></value></block></value><statement name="DO"><block type="device_pause" id="s!u`%zh(OZ]pt6y6)Xp1"><value name="pause"><shadow type="timePicker" id="(TIa_.ELt$m/cg_,XJ##"><field name="ms">1000</field></shadow></value><next><block type="device_show_number" id="ja#g?xmCdaN)dI#{hP0N"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="9VDkN#et4RL9Mfmc/PVv"><field name="VAR" id="SUA+;G}bBhO9^3KdgO;S">sek</field></block></value><next><block type="variables_change" id="#LuW~=3TNtlIHjEN(6_L"><field name="VAR" id="SUA+;G}bBhO9^3KdgO;S">sek</field><value name="VALUE"><shadow type="math_number" id="91j*zeo9k-LF)b*8l!U["><field name="NUM">-1</field></shadow></value></block></next></block></next></block></statement><next><block type="pxt_controls_for" id="A80qDYt;GU8s!h;3MneL"><value name="VAR"><shadow type="variables_get_reporter"><field name="VAR" id="MA|}?JAEvd1ZDk)RcQ(E">index</field></shadow><block type="variables_get" id="maP%6^sr[tLWwO+O=gSA"><field name="VAR" id="]bxEZ$u[#z.^6)6!~=Z(">x</field></block></value><value name="TO"><shadow type="math_whole_number" id="QOxa2[:*Exsy6wg*!.J;"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_show_leds" id="}Jd6r.rSR3QKf?~Y/}ny"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="KuY9/Z!Ys]gjafeeIUb@"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="tjXp:fW#bVxPh=G,p4(e"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="PwO2oP~ro~!$JJp^hu~F"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="+1JQF(!1-NyH$;Y`Z!V*"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id="z=H0V}sE3Fwi)KUyQU_T"></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block></xml>
